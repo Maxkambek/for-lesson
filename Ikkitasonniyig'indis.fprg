@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ikkitasonniyig'indis"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-13 03:33:20 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1RTTNGN0pUOzIwMjYtMTEtMTM7MDM6MDI6MTUgUE07MjgzNQ=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1RTTNGN0pUOzIwMjYtMTEtMTM7MDM6MzM6MjAgUE07MTsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinchi sonni kiriting!&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Ikkinchi sonni kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="a+b"/>
+            <output expression="&quot;Ikkita sonning yig'indisi=&quot;" newline="True"/>
+            <output expression="s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="yigindini"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-16 04:22:40 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1RTTNGN0pUOzIwMjYtMTEtMTY7MDQ6MTc6NDYgUE07Mjg0OQ=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1RTTNGN0pUOzIwMjYtMTEtMTY7MDQ6MjI6NDAgUE07MTsyOTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Bu algoritm yigindini hisoblaydi&quot;" newline="True"/>
+            <declare name="A, B, yigindi" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <assign variable="yigindi" expression="A+B"/>
+            <output expression="yigindi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
